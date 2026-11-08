@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="fr" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jaafar Moustaghfir – Portfolio Développeur Web & Stage</title>
+    <meta
+      name="description"
+      content="Portfolio de Jaafar Moustaghfir, étudiant en DUT Génie Informatique à l'ESTA Agadir. Création de sites web professionnels et recherche de stage de 2 mois en France."
+    />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Jaafar Moustaghfir – Développeur Web & Étudiant DUT Informatique" />
+    <meta
+      property="og:description"
+      content="Création de sites web simples et efficaces. Disponible pour un stage de 2 mois en France ou admission en école d'ingénieurs."
+    />
+    <meta property="og:site_name" content="Portfolio Jaafar Moustaghfir" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Jaafar Moustaghfir – Développeur Web & Étudiant DUT Informatique" />
+    <meta
+      name="twitter:description"
+      content="Création de sites web simples et efficaces. Disponible pour un stage de 2 mois en France ou admission en école d'ingénieurs."
+    />
+
+    <!-- Google Fonts: Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Schema.org Person JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Jaafar Moustaghfir",
+      "jobTitle": "Développeur Web & Étudiant en Génie Informatique",
+      "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": "École Supérieure de Technologie d'Agadir (ESTA)"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Agadir",
+        "addressCountry": "MA"
+      },
+      "email": "jaafarmoustaghfir@gmail.com",
+      "telephone": "+212772908456",
+      "url": "https://commune-d-ouled-teimaa.netlify.app/",
+      "sameAs": [
+        "https://www.linkedin.com/in/jaafar-moustaghfir-439336411",
+        "https://github.com/jaafarmoustaghfir"
+      ],
+      "knowsAbout": ["Web Development", "HTML", "CSS", "C Programming", "React", "Responsive Design"]
+    }
+    </script>
+  </head>
+  <body class="bg-[#F8F5F1] text-[#1D1815] transition-colors duration-300 dark:bg-[#151210] dark:text-[#E8E1D8] font-['Poppins',sans-serif]">
+    <!-- Hidden form for Netlify build discovery -->
+    <form name="contact" data-netlify="true" netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <input type="text" name="type" />
+      <textarea name="message"></textarea>
+    </form>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

@@ -1,0 +1,42 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: "Poppins", system-ui, -apple-system, sans-serif;
+  --color-sand-50: #FAF8F5;
+  --color-sand-100: #F4EFEA;
+  --color-sand-200: #E8E1D8;
+  --color-sand-300: #D9CEBF;
+  --color-sand-400: #C2B3A1;
+  --color-sand-500: #A89582;
+  --color-cocoa-400: #B79D8E;
+  --color-cocoa-500: #9C7F70;
+  --color-cocoa-600: #836758;
+  --color-cocoa-700: #695043;
+  --color-espresso-800: #332B25;
+  --color-espresso-900: #1D1815;
+  --color-espresso-950: #14100E;
+}
+
+:root {
+  color-scheme: light dark;
+}
+
+/* Custom scrollbar and focus outlines */
+:focus-visible {
+  outline: 2px solid #9C7F70;
+  outline-offset: 2px;
+}
+
+::selection {
+  background-color: #9C7F70;
+  color: #FFFFFF;
+}
+
+@media print {
+  body {
+    background-color: #FFFFFF !important;
+    color: #000000 !important;
+  }
+}
+
